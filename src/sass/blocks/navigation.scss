@@ -1,0 +1,56 @@
+#navigation {
+  box-shadow: 0px 3px 8px rgba(80,80,80,0.31);
+}
+
+.menu {
+  .menu__link {
+    padding: 30px 7px;
+
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    &:hover,
+    &:focus {
+      background-color: transparent;
+    }
+  }
+
+  .active a {
+    color: $color-secondary;
+    background: none;
+  }
+
+}
+
+
+.callback {
+  float: right;
+  padding-top: 20px;
+  &__phone {
+    display: inline-block;
+
+    margin-left: 6px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+  }
+}
+
+.fa-mobile--custom {
+  padding-right: 8px;
+  border-right: 1px solid $gray;
+  transition: all .55s ease-out;
+  &:hover {
+    color: $green;
+  }
+}
+
+.logo {
+  padding-top: 20px
+}
+
+li:nth-child(1) .menu__link {
+  padding-left: 0;
+}
