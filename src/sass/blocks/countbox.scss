@@ -1,0 +1,108 @@
+.timer-title {
+  font-size: 27px;
+
+  margin-bottom: 20px;
+
+  span {
+    text-transform: uppercase;
+  }
+}
+
+.countbox {
+    line-height: 1.2;
+    color: $color-main;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 688px) {
+    .countbox {
+        padding: 10px 0 0 0;
+        font-size: 26px;
+        line-height: 26px;
+        display: flex;
+        justify-content: center;
+        max-height: 120px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .countbox {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        max-height: 110px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .countbox {
+        padding: 45px 0 0 0;
+        display: flex;
+        justify-content: center;
+        max-height: 140px;
+    }
+}
+
+.countbox .countbox-num {
+    position: relative;
+    float: left;
+    border: 1px solid $color-secondary;
+    padding: 20px 45px 50px 45px;
+}
+
+@media screen and (max-width: 488px) {
+    .countbox .countbox-num {
+        padding: 10px 25px 50px;
+    }
+}
+
+.countbox .countbox-space {
+    float: left;
+    width: 10px;
+    height: 130px;
+}
+
+.countbox-hours1, .countbox-mins1, .countbox-secs1, .countbox-hours2, .countbox-mins2, .countbox-secs2 {
+    float: left;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .countbox-hours1, .countbox-mins1, .countbox-secs1, .countbox-hours2, .countbox-mins2, .countbox-secs2 {
+        margin: 5px 0;
+    }
+}
+
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    bottom: 3px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 688px) {
+    .countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+        margin: 0 -10px;
+        bottom: 9px;
+    }
+}
+
+.countbox-hours1 span, .countbox-hours2 span, .countbox-mins1 span, .countbox-mins2 span, .countbox-secs1 span, .countbox-secs2 span {
+    position: absolute;
+    display: block;
+    height: 145px;
+}
+
+.countbox-line {
+    height: 1px;
+    background: #f18e6c;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 40px;
+}
+
+.arrow-box:after {
+    border-right: 1px solid #dadada;
+}

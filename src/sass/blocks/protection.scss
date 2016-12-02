@@ -1,0 +1,45 @@
+.protection {
+  min-height: 400px;
+
+  text-align: left;
+
+  background: transparent url(../img/bg-protection.jpg) no-repeat center center;
+  background-size: cover;
+
+  &__item {
+    position: relative;
+    margin-bottom: 60px;
+    transition: all ease-in .4s;
+    &:hover .protection__icon {
+      box-shadow: inset 0px 0px 0px 50px $green;
+      color: #fff;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 72px;
+    height: 72px;
+
+    text-align: center;
+    line-height: 72px;
+    color: #fff;
+
+    background-color: $color-secondary;
+    border-radius: 50%;
+    transition: all ease-in .4s;
+  }
+
+  i {
+    font-size: 53px;
+    line-height: 72px;
+  }
+
+  &__text {
+    padding-top: 10px;
+    padding-left: 100px;
+  }
+
+}

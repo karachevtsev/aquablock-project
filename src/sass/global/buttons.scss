@@ -6,6 +6,7 @@
   display: inline-block;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   vertical-align: top;
 
   color: #fff;
@@ -24,5 +25,14 @@
 
   &--small {
     padding: 5px 8px;
+  }
+
+  &--action {
+    display: block;
+
+    padding: 5px 8px;
+    margin-bottom: 15px;
+
+    font-size: 30px;
   }
 }

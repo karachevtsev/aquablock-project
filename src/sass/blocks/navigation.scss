@@ -1,5 +1,6 @@
 #navigation {
   box-shadow: 0px 3px 8px rgba(80,80,80,0.31);
+  background-color: #FFF;
 }
 
 .menu {
@@ -9,7 +10,7 @@
     font-size: 11px;
     line-height: 13px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     &:hover,
     &:focus {
       background-color: transparent;
@@ -34,7 +35,7 @@
     margin-right: 10px;
     font-size: 12px;
     line-height: 14px;
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 

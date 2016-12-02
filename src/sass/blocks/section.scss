@@ -1,0 +1,58 @@
+.section {
+  margin-bottom: 100px;
+
+  text-align: center;
+
+  &--colored {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: $gray-light;
+  }
+
+  &__title {
+    position: relative;
+
+    display: inline-block;
+
+    margin-bottom: 80px;
+
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    &:after {
+      position: absolute;
+
+      content: "";
+      left: 48%;
+      bottom: -25px;
+      margin-left: -55px;
+      width: 150px;
+      height: 2px;
+      background-color: $green;
+      transition: all .3s ease 0s;
+    }
+
+    span {
+      text-transform: uppercase;
+      font-weight: 500;
+      color: $color-secondary;
+    }
+
+    &:hover:after {
+      left: 0;
+
+      margin-left: 0px;
+
+      width: 100%;
+    }
+  }
+
+  &__subtitle {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+
+  &__title--uppercase {
+    text-transform: uppercase;
+  }
+}

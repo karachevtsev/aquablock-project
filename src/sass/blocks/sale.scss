@@ -1,0 +1,52 @@
+.sale {
+  min-height: 700px;
+  background: transparent url(../img/bg-sale.jpg) no-repeat center center;
+  background-size: cover;
+
+  text-align: left;
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 48px;
+    text-transform: uppercase;
+
+    color: $color-secondary;
+
+    &--large {
+      font-size: 60px;
+
+      color: $color-main;
+    }
+  }
+
+  &__deal {
+    margin-bottom: 25px;
+  }
+
+  &__description {
+    margin-bottom: 25px;
+
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  .new-price {
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+  .orange {
+    margin-left: 15px;
+
+    font-size: 36px;
+    color: $color-secondary;
+  }
+
+  .old-price {
+    text-decoration: line-through;
+  }
+
+  .lowercase {
+    text-transform: lowercase;
+  }
+}
