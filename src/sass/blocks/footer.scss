@@ -1,6 +1,6 @@
 .main-footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
   text-transform: uppercase;
 
@@ -94,6 +94,7 @@
 .development {
   text-transform: capitalize;
   &__link {
+    margin-left: 10px;
     color: $color-secondary;;
     &:hover {
       color: $green;
