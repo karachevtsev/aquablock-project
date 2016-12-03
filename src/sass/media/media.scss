@@ -14,8 +14,6 @@
   }
 
   .section {
-    margin-bottom: 50px;
-
     &__title {
       font-size: 32px;
     }
@@ -64,8 +62,6 @@
   .promo {
     padding-top: 260px;
     padding-bottom: 0px;
-    margin-bottom: 50px;
-
     background: transparent;
 
     &__action {
@@ -137,12 +133,6 @@
 
 }
 
-// iPad
-@media only screen and (max-width : 769px) {
-
-
-}
-
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
@@ -177,6 +167,10 @@
       }
     }
 
+    .section {
+      margin-bottom: -60px;
+    }
+
     li:nth-child(1) .menu__link {
       padding-left: 10px;
     }
@@ -205,6 +199,7 @@
 
     .promo {
       background: none;
+      margin-bottom: -30px;
       &__spray {
         z-index: -1;
       }

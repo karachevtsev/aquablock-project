@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
   <title>AQUABLOCK - купить супергидрофобное средство для обуви в Украине. Водоотталкивающая пропитка.</title>
   <meta name="title" content="Aquablock">
-  <meta name="description" content="AQUABLOCK - супергидрофобное водоотталкивающее средство для обуви (нубук, замша, текстиль). ☎ (068)1431363">
+  <meta name="description" content="AQUABLOCK - супергидрофобное водоотталкивающее средство для обуви (нубук, замша, текстиль)">
   <meta name="keywords" content= "AQUABLOCK, водоотталкивающее средство для обуви, купить водоотталкивающее средство для обуви Киев">
   <meta name="robots" content="index, follow">
   <!-- Title and Meta Tags End -->
@@ -20,15 +20,12 @@
   <!-- Favicons End -->
 
   <!-- Latest compiled and minified Bootstrap CSS Start -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="libs/bootstrap.min.css">
   <!-- Latest compiled and minified Bootstrap CSS Start -->
 
   <!-- CSS Start -->
-  <link href="libs/bootstrap.min.css" rel="stylesheet">
-  <link href="libs/pe-icon-7-stroke.css" rel="stylesheet" >
+  <link href="libs/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet" >
   <link href="css/style.min.css" rel="stylesheet">
-  <link href="libs/magnific-popup.css" rel="stylesheet">
-  <link href="libs/animate.css" rel="stylesheet">
   <!-- CSS End -->
 
   <!-- Fonts Start -->
@@ -45,16 +42,10 @@
   <!-- Scripts End -->
 
 </head>
-<body class="main-page" data-spy="scroll" data-target="#navigation" data-offset="170">
+<body data-spy="scroll" data-target="#navigation" data-offset="100">
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
-  <!-- Preloader Start -->
-  <!-- <div id="preloader"">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw""></i>
-  </div> -->
-  <!-- Page Preloader End -->
 
   <!-- Main Header Start -->
   <header class="main-header">
@@ -69,7 +60,6 @@
 
           <a class="navbar-brand scrollto logo" href="#home">
             <img class="logo__image" src="img/logo.png" width="" height="" alt="Aquablock">
-            <!-- <img class="logo__image--mobile visible-sm visible-xs" width="150" height="58" src="img/logo.png" alt="Aquablock"> -->
           </a>
 
         </div>
@@ -77,16 +67,16 @@
           <nav class="menu">
             <ul class="nav navbar-nav menu__list">
               <li class="menu__item">
-                <a class="menu__link" href="#order" class="scrollto">Заказать сейчас</a>
+                <a class="scrollto menu__link" href="#sale" >Заказать сейчас</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#features" class="scrollto">Преимущества</a>
+                <a class="scrollto menu__link" href="#features">Преимущества</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#usage" class="scrollto">Как использовать</a>
+                <a class="scrollto menu__link" href="#usage">Как использовать</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#shipping" class="scrollto">Доставка и оплата</a>
+                <a class="scrollto menu__link" href="#delivery">Доставка и оплата</a>
               </li>
             </ul>
           </nav>
@@ -96,7 +86,7 @@
               <div class="callback__number">+38 (068) 143-13-63</div>
               <div class="callback__number">+38 (063) 851-70-63</div>
             </div>
-            <a class="btn btn--small" href="">Заказать звонок</a>
+            <a class="btn btn--small" role="button" data-toggle="modal" data-target="#callModal">Заказать звонок</a>
           </div>
         </div>
       </div>
@@ -106,19 +96,19 @@
   <!-- Main Header End -->
 
   <!-- Promo Start -->
-  <section class="promo">
+  <section id="home" class="section promo">
     <div class="promo__action">
       <h1 class="promo__title"><img class="promo__image" src="img/promo__image.png" width="" height="" alt="Aquablock"></h1>
       <p class="promo__description">Чистота и сухость <br> вашей обуви на <br> <span class="colored">3</span> <span class="lowercase">месяца всего за</span> <span class="colored">249</span> <span class="lowercase">грн</span></p>
-      <a class="btn btn--action" href="">Заказать сейчас</a>
-      <a class="btn btn--action" href="">Консультация</a>
+      <a class="btn btn--action" href="" role="button" data-toggle="modal" data-target="#callModal">Заказать сейчас</a>
+      <a class="btn btn--action" href="" role="button" data-toggle="modal" data-target="#callModal">Консультация</a>
       <img class="img-responsive promo__spray" src="img/aquablock-100ml.png" width="" height="" alt="Aquablock-100ml">
     </div>
     <div class="container-fluid">
       <div class="col-md-6 col-md-offset-6 p0">
         <div class="promo__video">
           <div class="promo__video-button">
-            <a href="https://vimeo.com/45830194" class="promo__video-link"><i class="pe-7s-play"></i> </a>
+            <a href="" class="promo__video-link" role="button" data-toggle="modal" data-target="#videoModal"><i class="pe-7s-play"></i> </a>
           </div>
         </div>
       </div>
@@ -128,7 +118,7 @@
   <!-- Promo End -->
 
   <!-- Features Start -->
-  <section class="section features">
+  <section id="features" class="section features">
     <div class="container">
     <h2 class="section__title">Преимущества <span>Aquablock</span></h2>
       <div class="row">
@@ -175,22 +165,31 @@
   <!-- Video End -->
 
   <!-- Sale Start -->
-  <section class="section sale">
+  <section id="sale" class="section sale">
     <div class="container">
       <h2 class="sale__title">Внимание акция!</h2>
       <p class="sale__deal"><span class="new-price">249 грн.</span> <span class="orange"> Вместо <span class="old-price">418 грн.</span></span></p>
       <p class="sale__description">Закажите <span class="lowercase">2 флакона</span> <strong>Aquablock</strong> <span class="lowercase">и получите</span> 3-й бесплатно!</p>
 
       <!-- Callback Form Start -->
-      <form class="callback-form form-inline">
-        <div class="form-group">
-          <input type="text" class="form-control" id="client" placeholder="Ваше имя">
+      <div class="form-inline-wrapper">
+        <div class="success-form-inline">
+          <div class="success-form-inline__description">
+            <div class="success-form-inline__icon"><i class="pe-7s-check"></i></div>
+            <div class="success-form-inline__title">Спасибо за заявку!</div>
+            <div class="success-form-inlines__text">Наш менеджер свяжеться с Вами в ближайшее время!</div>
+          </div>
         </div>
-        <div class="form-group">
-          <input type="text" class="form-control" id="tel" placeholder="Номер телефона">
-        </div>
-        <button type="submit" class="btn">Заказать сейчас</button>
-      </form>
+        <form id="callback-form-inline-1" class="callback-form form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control phone-mask" name="phone" placeholder="Номер телефона" required>
+          </div>
+          <button type="submit" class="btn">Заказать сейчас</button>
+        </form>
+      </div>
       <!-- Callback Form End -->
 
       <!-- Timer Start -->
@@ -227,37 +226,6 @@
   <!-- Sale End -->
 
   <!-- Aquablock Problems-Solutions Start -->
-  <!-- <section class="section">
-    <div class="container">
-    <h2 class="section__title">Преимущества <span>Aquablock</span></h2>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="aquablock">
-            <img src="img/aquablock-3.jpg" class="img-circle aquablock__image"  width="200" alt="...">
-            <p class="aquablock__text">Обувь от постоянного использования в плохую погоду быстро приходит в негодность.</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="aquablock">
-            <img src="img/aquablock-2.jpg" class="img-circle aquablock__image"  width="200" alt="...">
-            <p class="aquablock__text">В дождь и слякоть обувь промокает за считанные минуты.</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="aquablock">
-            <img src="img/aquablock-4.jpg" class="img-circle aquablock__image"  width="200" alt="...">
-            <p class="aquablock__text">Соль и дорожные реагенты оставляют на обуви белые разводы.</p>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="aquablock">
-            <img src="img/aquablock-1.jpg" class="img-circle aquablock__image"  width="200" alt="...">
-            <p class="aquablock__text">При частом намокании обувь теряет цвет и форму.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
   <section class="section">
     <div class="container">
     <h2 class="section__title">Преимущества <span>Aquablock</span></h2>
@@ -324,7 +292,7 @@
   <!-- Protection End -->
 
   <!-- How To Use Start -->
-  <section class="section">
+  <section id="usage" class="section">
     <div class="container">
     <h2 class="section__title">Как использовать <span>Aquablock</span></h2>
       <div class="row">
@@ -365,15 +333,24 @@
       <p class="sale__description">Закажите <strong>Aquablock</strong> сейчас со скидкой 40%</p>
 
       <!-- Callback Form Start -->
-      <form class="callback-form form-inline">
-        <div class="form-group">
-          <input type="text" class="form-control" id="client" placeholder="Ваше имя">
+      <div class="form-inline-wrapper">
+        <div class="success-form-inline">
+          <div class="success-form-inline__description">
+            <div class="success-form-inline__icon"><i class="pe-7s-check"></i></div>
+            <div class="success-form-inline__title">Спасибо за заявку!</div>
+            <div class="success-form-inlines__text">Наш менеджер свяжеться с Вами в ближайшее время!</div>
+          </div>
         </div>
-        <div class="form-group">
-          <input type="text" class="form-control" id="tel" placeholder="Номер телефона">
-        </div>
-        <button type="submit" class="btn">Заказать сейчас</button>
-      </form>
+        <form id="callback-form-inline-2" class="callback-form form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control phone-mask" name="phone" placeholder="Номер телефона" required>
+          </div>
+          <button type="submit" class="btn">Заказать сейчас</button>
+        </form>
+      </div>
       <!-- Callback Form End -->
 
       <!-- Timer Start -->
@@ -457,7 +434,7 @@
               <div class="item slide">
                 <img src="img/client-4.jpg" class="img-circle slide__photo"  alt="...">
                 <div class="slide__feedback">
-                  <p class="slide__text">Очень порадовало это покрытие. Никогда не видела ничего подобного, обувь как новая всегда, даже после дождя. Кроме того, что обуви не страшны ни лужи, ни слякоть, мне нравиться смотреть на ошарашеные лица друзей и знакомых, когда они в первый раз видят такой эффект и неодин из них не верит, что возможно добиться такого результата всеголишь одной баночкой!</p>
+                  <p class="slide__text slide__text--more">Очень порадовало это покрытие. Никогда не видела ничего подобного, обувь как новая всегда, даже после дождя. Кроме того, что обуви не страшны ни лужи, ни слякоть, мне нравиться смотреть на ошарашеные лица друзей и знакомых, когда они в первый раз видят такой эффект и неодин из них не верит, что возможно добиться такого результата всеголишь одной баночкой!</p>
                   <h3 class="slide__title">Яна Стойкова, Киев</h3>
                 </div>
               </div>
@@ -466,7 +443,7 @@
               <div class="item slide">
                 <img src="img/client-5.jpg" class="img-circle slide__photo"  alt="...">
                 <div class="slide__feedback">
-                  <p class="slide__text">Это вещество стало для меня удивлением! Я до последнего не верил, что это работает имеено так как на видео. Думал пару капель скатится, а все остальное впитается, но был приятно удивлен!! Проливши воду на свои туфли, на их поверхности осталось всего пару капель. Это средство действительно работает и очень сильно выручает в дождь))</p>
+                  <p class="slide__text slide__text--more">Это вещество стало для меня удивлением! Я до последнего не верил, что это работает имеено так как на видео. Думал пару капель скатится, а все остальное впитается, но был приятно удивлен!! Проливши воду на свои туфли, на их поверхности осталось всего пару капель. Это средство действительно работает и очень сильно выручает в дождь))</p>
                   <h3 class="slide__title">Игорь Прохоров, Запорожье</h3>
                 </div>
               </div>
@@ -480,7 +457,7 @@
   <!-- Clients End -->
 
   <!-- Payment And Shipping Start -->
-  <section class="section section--colored">
+  <section id="delivery" class="section section--colored">
     <div class="container">
     <h2 class="section__title section__title--uppercase">Доставка и оплата <span>заказов</span></h2>
       <div class="row">
@@ -538,16 +515,25 @@
     <p class="section__subtitle">Оставьте свои контакты и мы Вам перезвоним</p>
 
     <!-- Callback Form Start -->
-    <form class="callback-form form-inline">
-      <div class="form-group">
-        <input type="text" class="form-control" id="client" placeholder="Ваше имя">
+      <div class="form-inline-wrapper">
+        <div class="success-form-inline">
+          <div class="success-form-inline__description">
+            <div class="success-form-inline__icon"><i class="pe-7s-check"></i></div>
+            <div class="success-form-inline__title">Спасибо за заявку!</div>
+            <div class="success-form-inlines__text">Наш менеджер свяжеться с Вами в ближайшее время!</div>
+          </div>
+        </div>
+        <form id="callback-form-inline-3" class="callback-form form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Ваше имя" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control phone-mask" name="phone" placeholder="Номер телефона" required>
+          </div>
+          <button type="submit" class="btn">Перезвонить</button>
+        </form>
       </div>
-      <div class="form-group">
-        <input type="text" class="form-control" id="tel" placeholder="Номер телефона">
-      </div>
-      <button type="submit" class="btn">Перезвонить</button>
-    </form>
-    <!-- Callback Form End -->
+      <!-- Callback Form End -->
   </div>
   </section>
   <!-- Questions Request Start -->
@@ -558,10 +544,10 @@
       <div class="row">
         <div class="col-md-6 col-md-push-3">
           <div class="to-top">
-            <a href="#" class="to-top__link"><i class="pe-7s-up-arrow"></i></a>
+            <a href="#home" class="scrollto to-top__link"><i class="pe-7s-up-arrow"></i></a>
           </div>
           <div class="offer">
-            <a href="#" class="offer__link">Получить оптовое предложение</a>
+            <a href="#" class="offer__link" role="button" data-toggle="modal" data-target="#callModal">Получить оптовое предложение</a>
           </div>
         </div>
         <div class="col-md-3 col-md-pull-6">
@@ -576,7 +562,7 @@
         </div>
         <div class="col-md-3">
           <div class="privacy">
-            <a href="#" class="privacy__link">Политика конфиденциальности</a>
+            <a href="#" class="privacy__link" role="button" data-toggle="modal" data-target="#privacyModal">Политика конфиденциальности</a>
           </div>
           <div class="development">
             Разработка сайта <a href="#" class="development__link">Karachevtsev</a>
@@ -587,18 +573,79 @@
   </footer>
   <!-- Main Footer End -->
 
+<!-- Modals Content Start -->
+  <div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+          <h4 class="modal-title" id="exampleModalLabel">Оставьте заявку и мы свяжемся с Вами в ближайшее время</h4>
+        </div>
+        <div class="modal-body">
+          <div class="success">
+            <div class="success__description">
+              <div class="success__icon"><i class="pe-7s-check"></i></div>
+              <div class="success__title">Спасибо за заявку!</div>
+              <div class="success__text">Наш менеджер свяжеться с Вами в ближайшее время!</div>
+            </div>
+          </div>
+          <form id="callback-form-popup" class="callback-form">
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control phone-mask" name="phone" placeholder="Номер телефона" required>
+            </div>
+            <button type="submit" class="btn btn-block">Заказать сейчас</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modals Content End -->
 
-  <!-- Сompiled and minified jQuery 1.9.1 -->
+  <!-- Modals Video Content Start -->
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+          <h4 class="modal-title" id="exampleModalLabel">Посмотрите видео Aquablock в работе</h4>
+        </div>
+        <div class="modal-body">
+          <iframe width="100%" height="302" src="https://www.youtube.com/embed/dDiGfg2Z-qs" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modals Video Content End -->
+
+  <!-- Modals Privacy Content Start -->
+  <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+          <h4 class="modal-title" id="exampleModalLabel">Политика конфиденциальности</h4>
+        </div>
+        <div class="modal-body">
+          <p>Администрация данной посадочной страницы (Лэндинг) не может передать или раскрыть информацию предоставленную пользователем (далее Пользователь) при регистрации и использовании функций сайта третьим лицам, кроме случаев, описанных законодательством страны, на территории которой пользователь ведет свою деятельность.</p>
+          <p>Лэндинг использует личную информацию Пользователя для обслуживания и для улучшения качества предоставляемых услуг. Часть персональной информации может быть предоставлена банку или платежной системе, в случае, если предоставление этой информации обусловлено процедурой перевода средств платежной системе, услугами которой Пользователь желает воспользоваться.</p>
+          <p>Лэндинг прилагает все усилия для сбережения в сохранности личных данных Пользователя. Личная информация может быть раскрыта в случаях, описанных законодательством, либо когда администрация сочтет подобные действия необходимыми для соблюдения юридической процедуры, судебного распоряжения или легального процесса необходимого для работы Пользователя с Лэндингом. В других случаях, ни при каких условиях, информация, которую Пользователь передает Лэндингу, не будет раскрыта третьим лицам.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modals Privacy Content End -->
+
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-  <!-- Latest compiled and minified Smoothscroll plugin -->
+  <script>window.jQuery || document.write('<script src="libs/jquery-1.9.1.min.js">\x3C/script>')</script>
+  <script src="libs/bootstrap.min.js"></script>
+  <script src="libs/jquery.easing.1.3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.js"></script>
-
+  <script src="libs/timer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.3/jquery.mask.js"></script>
   <script src="js/app.min.js"></script>
 </body>
 </html>

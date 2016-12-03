@@ -1,18 +1,22 @@
 .clients {
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 .slide {
   text-align: center;
-  min-height: 310px;
 
   &__photo {
     margin-bottom: 40px;
   }
 
   &__text {
+    height: 60px;
     font-size: 14px;
     margin-bottom: 20px;
+  }
+
+  &__text--more {
+    font-size: 11px;
   }
 
   &__title {

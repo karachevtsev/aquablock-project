@@ -41,3 +41,9 @@ ul, li {
   margin: 0 0 10px;
   padding: 0;
 }
+
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
